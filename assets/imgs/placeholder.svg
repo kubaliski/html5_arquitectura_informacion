@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="380" height="280"
+        fill="none"
+        stroke="#666"
+        stroke-width="2"
+        stroke-dasharray="5,5"/>
+  <path d="M160 100 L240 100 L240 140 L160 140 Z"
+        fill="#999"/>
+  <circle cx="180" cy="120" r="8" fill="#666"/>
+  <path d="M160 140 L185 120 L200 130 L225 110 L240 140 Z"
+        fill="#666"/>
+  <text x="200" y="180"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="16"
+        fill="#666">
+    400 x 300
+  </text>
+  <text x="200" y="200"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="14"
+        fill="#999">
+    Placeholder
+  </text>
+</svg>

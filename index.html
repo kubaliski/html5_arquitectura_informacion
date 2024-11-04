@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pulso - Tu revista independiente de cultura alternativa. Descubre las últimas tendencias en arte, música y cultura underground.">
+    <meta name="keywords" content="fanzine, revista independiente, cultura alternativa, arte underground, publicación independiente">
+    <meta name="author" content="Angel Caparros Caballero">
+    <title>Pulso - Revista Independiente de Cultura Alternativa</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/imgs/favicon.svg">
+</head>
+<body>
+    <header>
+        <img src="./assets/imgs/logo.svg" alt="Logo de Pulso - Línea de pulso formando el nombre" width="200" height="80">
+        <nav>
+            <ul>
+                <li><a href="./numeros/actual.html">Último Número</a></li>
+                <li><a href="./archivo/index.html">Archivo</a></li>
+                <li><a href="./colabora.html">Colabora</a></li>
+                <li><a href="./suscripcion.html">Suscripción</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Pulso</h1>
+            <p><strong>Tu ventana a la cultura alternativa</strong></p>
+            <h2>Número #42 - Disponible ahora</h2>
+        </section>
+
+        <section id="ultimo-numero">
+            <h2>Último Número</h2>
+            <article>
+                <h3>La música independiente, ¿saturación de un medio?</h3>
+                <div class="article-content">
+                    <figure>
+                        <img src="./assets/imgs/placeholder.svg" alt="Imagen placeholder donde debería ir la portada de la edición 42">
+                        <figcaption>Edición #42 - Contracultura en la música actual</figcaption>
+                    </figure>
+                    <p>¿Es posible destacar en la era del algoritmo? Analizamos el estado actual de la escena independiente, donde la facilidad de publicación y distribución ha llevado a una sobresaturación de propuestas. Exploramos los desafíos de artistas y sellos para sobresalir en un mercado cada vez más congestionado.</p>
+                    <a href="./articulos/saturacion-musica-independiente.html">Leer más →</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="destacados">
+            <h2>Destacados de este mes</h2>
+
+            <details open>
+                <summary>
+                    <h3>Entrevista Exclusiva</h3>
+                </summary>
+                <article>
+                    <h4>Aiko: nuevas rabias</h4>
+                    <p>Conversamos con <em>Aiko, el grupo</em>, nuestro artista revelación 2024.</p>
+                    <blockquote cite="https://pulso.com/entrevistas/aiko">
+                        <p>"Sentimos entre presión y honor. Nunca habíamos tocado delante de tanta gente. Es curioso, porque creo que compartimos algo de público con ellos y mucha gente ya nos conocía e incluso se sabían las canciones."</p>
+                        <footer>— Barbara Lopez, <cite>teclado y voces</cite></footer>
+                    </blockquote>
+                    <p>La banda afiancada en madrid nos habla sobre su proceso creativo, sus influencias y su visión del actual panorama musical independiente.</p>
+                    <a href="./entrevistas/aiko-fenomeno-indie.html">Leer entrevista completa →</a>
+                </article>
+            </details>
+
+            <details>
+                <summary>
+                    <h3>Reportaje Especial</h3>
+                </summary>
+                <article>
+                    <h4>La revolución sonora del techno industrial</h4>
+                    <p>Techno Industrial: <strong>El resurgir de un género</strong></p>
+                    <p>Analizamos el regreso de uno de los sonidos más influyentes de la música electrónica y su impacto en la escena actual.</p>
+                    <a href="./reportajes/techno-industrial-resurgir.html">Leer reportaje completo →</a>
+                </article>
+            </details>
+        </section>
+
+        <aside>
+            <h3>Próximos Eventos</h3>
+            <ul>
+                <li>Taller de Autoedición - 15 de Noviembre</li>
+                <li>FanZine Fest 2024 - 26 de Noviembre</li>
+                <li>Encuentro de Creadores - 7 de Diciembre</li>
+            </ul>
+        </aside>
+
+        <section id="suscripcion">
+            <h2>¡Únete a nuestra comunidad!</h2>
+            <form id="newsletter-form">
+                <fieldset>
+                    <legend>Suscríbete al newsletter</legend>
+
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <p>Intereses:</p>
+                        <input type="checkbox" id="arte" name="intereses" value="arte">
+                        <label for="arte">Arte Urbano</label>
+
+                        <input type="checkbox" id="musica" name="intereses" value="musica">
+                        <label for="musica">Música Independiente</label>
+
+                        <input type="checkbox" id="literatura" name="intereses" value="literatura">
+                        <label for="literatura">Literatura Underground</label>
+                    </div>
+
+                    <div>
+                        <label for="frecuencia">Frecuencia preferida:</label>
+                        <select id="frecuencia" name="frecuencia">
+                            <option value="semanal">Semanal</option>
+                            <option value="quincenal">Quincenal</option>
+                            <option value="mensual">Mensual</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Suscribirme</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Síguenos en redes</h3>
+            <ul>
+                <li><a href="https://instagram.com/pulso_revista" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://twitter.com/pulso_revista" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contacto</h3>
+            <address>
+                Email: <a href="mailto:info@pulso.com">info@pulso.com</a><br>
+                Ciudad: Córdoba, España
+            </address>
+        </div>
+
+        <div>
+            <p>&copy; 2024 Pulso. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
